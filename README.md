@@ -101,24 +101,15 @@ synthetic_data/
 ├── train/
 │   ├── freq_10MHz/
 │   │   ├── antennas_16_s1/
-│   │   ├── antennas_16_s2/
-│   │   ├── antennas_32_s1/
-│   │   ├── antennas_32_s2/
 │   │   └── ...
-│   ├── freq_700MHz/
-│   ├── freq_1300MHz/
-│   ├── freq_2000MHz/
 │   └── ...
 ├── valid/
 │   ├── freq_10MHz/
 │   │   ├── antennas_16_s1/
-│   │   ├── antennas_16_s2/
-│   │   ├── antennas_32_s1/
-│   │   ├── antennas_32_s2/
 │   │   └── ...
-│   ├── freq_700MHz/
-│   ├── freq_1300MHz/
-│   ├── freq_2000MHz/
+│   └── ...
+├── uv/
+│   ├── mask_16antennas_10MHz_downscaled1x.npy
 │   └── ...
 ```
 ---

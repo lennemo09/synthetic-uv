@@ -123,8 +123,8 @@ synthetic_data/
 ## Explanation of Directory Components
 
 ### 1. **Top-Level Folders**
-- `train/`: Contains synthetic data for the training dataset.
-- `valid/`: Contains synthetic data for the validation dataset.
+- **Training (`train/`) and Validation (`valid/`) datasets** for synthetic visibility simulations, organized by frequency, number of antennas, and scaling factors.
+- **UV Masks (`uv/`)**: Precomputed UV sampling masks used during data generation.
 
 ### 2. **Frequency Subfolders**
 Each dataset (`train` or `valid`) is divided into subfolders by the observing frequency:
@@ -145,6 +145,16 @@ Inside each frequency folder, data is divided by the number of antennas and the 
 Other examples:
 - `antennas_32_s1`: 32 antennas, no downscaling.
 - `antennas_2048_s2`: 2048 antennas, downscaled by 2.
+
+### 4. **UV Masks (`uv/`)**
+The `uv/` folder contains precomputed UV sampling masks used for synthetic visibility simulations. Masks are organized by:
+- **Antenna Count**: The number of antennas used for sampling (e.g., `16antennas`, `32antennas`, `2048antennas`).
+- **Frequency**: The observing frequency (e.g., `10MHz`, `2000MHz`).
+- **Downscale Factor**: Specifies whether the mask corresponds to no downscaling (`downscaled1x`) or downscaling by a factor of 2 (`downscaled2x`).
+
+Example filenames:
+- `mask_16antennas_10MHz_downscaled1x.npy`: UV mask for 16 antennas, 10 MHz, no downscaling.
+- `mask_2048antennas_2000MHz_downscaled2x.npy`: UV mask for 2048 antennas, 2 GHz, downscaled by a factor of 2.
 
 ---
 

@@ -39,6 +39,9 @@ synthetic_data/
 │   │   ├── antennas_16_s1/
 │   │   └── ...
 │   └── ...
+├── uv/
+│   ├── mask_16antennas_10MHz_downscaled1x.npy
+│   └── ...
 ```
 
 Further documentation for `synthetic_data` is in a following section.

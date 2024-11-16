@@ -13,7 +13,7 @@ The required file to run the notebook is:
 - Also on DGP cluster: `/scratch/ondemand28/len/data/DSA2000_1024_x2_strong/POLISH_data.zip`
 
 Additionally, I have a subset of the `synthetic_data` data set for 2000 MHz with 2048 antennas here:
-- `synthetic_data/2000MHz_2048antennas.zip`: [Google Drive Link TBD](./)
+- `2000MHz_2048antennas.zip`: [Google Drive Link TBD](./)
 - Also on DGP cluster: `/scratch/ondemand28/len/data/DSA2000_1024_x2_strong/synthetic_data/2000MHz_2048antennas.zip`
 
 ## Step 1: Generate POLISH data

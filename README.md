@@ -8,6 +8,14 @@ This repo contains the script to generate synthetic visibility (Fourier domain) 
 Only Step 1 is required to be able to run `data_processing.ipynb`. All the data in the following steps can be re-produced simply by running the notebook with data from Step 1.
 You can preview the notebook in the browser [here](notebook_preview/data_processing.md).
 
+The required file to run the notebook is:
+- `POLISH_data.zip`: [Google Drive Link TBD](./)
+- Also on DGP cluster: `/scratch/ondemand28/len/data/DSA2000_1024_x2_strong/POLISH_data.zip`
+
+Additionally, I have a subset of the `synthetic_data` data set for 2000 MHz with 2048 antennas here:
+- `synthetic_data/2000MHz_2048antennas.zip`: [Google Drive Link TBD](./)
+- Also on DGP cluster: `/scratch/ondemand28/len/data/DSA2000_1024_x2_strong/synthetic_data/2000MHz_2048antennas.zip`
+
 ## Step 1: Generate POLISH data
 
 First, generate the data to using [`make_img_pairs.py` provided by POLISH](https://github.com/liamconnor/polish-pub/blob/main/make_img_pairs.py) with the root directory of this repo to be the output.
@@ -28,7 +36,7 @@ It should then create the following subdirectories in the repo root directory:
 
 ## Step 2: Download pre-generated `synthetic_data` subset (Alternatively: You can generate your own full data using the provided `data_processing.ipynb` ([Preview notebook](notebook_preview/data_processing.md)). WARNING: Will take a long time (6 hrs) and ~1TB of space!)
 
-Download the pre-generated `synthetic_data` directory (LINK TBD) and extract to the root directory of this repo. It should have the following structure:
+Download the pre-generated `synthetic_data` directory (LINK TBD) and extract to the `synthetic_data` directory in this repo. It should have the following structure:
 
 ```
 synthetic_data/

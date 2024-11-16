@@ -23,7 +23,7 @@ It should then create the following subdirectories in the repo root directory:
 - `POLISH_valid_LR_bicubic`: Low-resolution dirty images used for POLISH validation input. This is unused for our purposes.
 - `psf`: Stores the ideal PSF. This is unused for our purposes.
 
-## Step 2: Download pre-generated `synthetic_data` (Alternatively: You can generate your own using the provided `data_processing.ipynb`. WARNING: Will take a long time (6 hrs) and ~100TB of space!)
+## Step 2: Download pre-generated `synthetic_data` (Alternatively: You can generate your own using the provided `data_processing.ipynb`. WARNING: Will take a long time (6 hrs) and ~1TB of space!)
 
 Download the pre-generated `synthetic_data` directory (LINK TBD) and extract to the root directory of this repo. It should have the following structure:
 

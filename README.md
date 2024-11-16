@@ -214,12 +214,16 @@ zip -r output.zip synthetic_data/train/freq_2000MHz/antennas_2048_s1 synthetic_d
 
 ### 4. **What tools can I use to view `.npy` files?**
    - Use Python with NumPy:
-     ```import numpy as np
+     ```
+     import numpy as np
      data = np.load("path_to_file.npy")
-     print(data.shape)```
+     print(data.shape)
+     ```
    - Visualize images using `matplotlib`:
-     ```import matplotlib.pyplot as plt
+     ```
+     import matplotlib.pyplot as plt
      plt.imshow(data, cmap="gray")
-     plt.show()```
+     plt.show()
+     ```
 
 ---

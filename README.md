@@ -9,11 +9,11 @@ Only Step 1 is required to be able to run `data_processing.ipynb`. All the data 
 You can preview the notebook in the browser [here](notebook_preview/data_processing.md).
 
 The required file to run the notebook is:
-- `POLISH_data.zip`: [Google Drive Link TBD](./)
+- `POLISH_data.zip`: [Google Drive Link (13.6 GB)](https://drive.google.com/file/d/1wKN501fcjgCCpcyIXOJgSRtV6rjbpqzy/view?usp=sharing)
 - Also on DGP cluster: `/scratch/ondemand28/len/data/DSA2000_1024_x2_strong/POLISH_data.zip`
 
 Additionally, I have a subset of the `synthetic_data` data set for 2000 MHz with 2048 antennas here:
-- `2000MHz_2048antennas.zip`: [Google Drive Link TBD](./)
+- `2000MHz_2048antennas.zip`: [Google Drive Link (72.29 GB)](https://drive.google.com/file/d/1xDO2MsshXu2ebclaIiDPokV1NQnmtz08/view?usp=sharing)
 - Also on DGP cluster: `/scratch/ondemand28/len/data/DSA2000_1024_x2_strong/synthetic_data/2000MHz_2048antennas.zip`
 
 ## Step 1: Generate POLISH data

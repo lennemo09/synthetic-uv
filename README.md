@@ -159,6 +159,7 @@ Example filenames:
 
 ## File Naming and Contents
 
+_Note_: The `_full` suffix is added to every file by mistake during data generation. Please ignore that :) It doesn't mean anything for now.
 Each subfolder (e.g., `antennas_16_s1`) contains six files per image, corresponding to different outputs:
 
 | **File Name**                     | **Description**                                                                 |
